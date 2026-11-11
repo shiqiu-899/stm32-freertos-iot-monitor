@@ -1,0 +1,32 @@
+# Keil 编译产物
+MDK-ARM/FreeRTOS/
+MDK-ARM/DebugConfig/
+MDK-ARM/Listings/
+MDK-ARM/Objects/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.lnp
+*.dep
+*.htm
+
+# Keil 界面设置（每台机器不同）
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.uvguix.*
+
+# CubeMX 缓存
+.mxproject
+
+# 私有配置（以后加了 secrets.h 记得保留这行）
+Core/Inc/secrets.h
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
